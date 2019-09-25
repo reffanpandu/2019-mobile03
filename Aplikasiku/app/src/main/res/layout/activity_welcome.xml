@@ -6,7 +6,7 @@
 	android:layout_width="match_parent"
 	android:layout_height="match_parent"
 	android:background="#FFFFFF"
-	tools:context=".WelcomeSlide">
+	tools:context=".WelcomeActivity">
 
 	<ImageView
 		android:id="@+id/calendar"
@@ -66,6 +66,7 @@
 		android:text="Login"
 		android:textSize="18sp"
 		android:fontFamily="@font/montserrat_light"
+		android:onClick="clickLogin"
 		/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
